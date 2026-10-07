@@ -1,0 +1,21 @@
+question,expected_guide
+I forgot my password and cannot log in,reset_password
+How do I get a new laptop ready for a new colleague?,new_laptop_setup
+My wifi keeps disconnecting,wifi_not_working
+The printer says offline,printer_offline
+How can I connect to the VPN from home?,vpn_connection
+Outlook is not receiving new emails,email_not_syncing
+My computer is very slow today,slow_computer
+The cash register is frozen and customers are waiting,pos_register_frozen
+I need a program installed on my laptop,software_install_request
+My laptop was stolen on the train,lost_device_report
+I got a new phone and the authenticator app is empty,mfa_new_phone
+How do I get access to the finance shared folder?,shared_drive_access
+I am locked out of my account after changing my password,reset_password
+The internet is not working in the office,wifi_not_working
+The POS shows an error when scanning,pos_register_frozen
+Can you install Zoom for me?,software_install_request
+The VPN asks for a code I do not have,mfa_new_phone
+What is the company vacation policy?,NONE
+How do I book a meeting room?,NONE
+What is the capital of France?,NONE

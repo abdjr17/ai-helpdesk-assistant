@@ -1,0 +1,6 @@
+# NEVER upload your key
+.env
+__pycache__/
+*.pyc
+.venv/
+data/tickets.csv
