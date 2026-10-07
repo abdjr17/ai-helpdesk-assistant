@@ -2,8 +2,7 @@
 
 A small Python assistant that answers first-level IT support questions from a set of short fix guides, logs every question as a ticket, and escalates to a human when it has no answer. I built it to practise prompt engineering, LLM API integration, testing and documentation.
 
-> All guides and test data are **invented**. No real company or personal data is used.
-
+>    > **Status:** working version. The prompt comparison and test results are being added.
 ## What it does
 
 1. An employee asks an IT question in the terminal.
