@@ -36,18 +36,7 @@ python src/helpdesk.py
 - `LLM_MODE=mock` runs without an API key and returns fake answers (to test the program).
 - `LLM_MODE=live` needs `LLM_API_KEY`, `LLM_BASE_URL` and `LLM_MODEL` in `.env`.
 
-## Prompt engineering: v1 vs v2
 
-I wrote two system prompts (see `src/prompts.py`) and tested both on the same 20 questions.
-
-| | v1 | v2 |
-|---|---|---|
-| Idea | one sentence: "answer using the guides" | rules: use only the guides, max 6 numbered steps, cite the guide, say "I could not find this" if unsure, never ask for passwords |
-| Score (0-2 per question, max 34 for 17 in-scope questions) | **[fill in]** | **[fill in]** |
-| Made-up steps (not in the guides) | **[fill in]** | **[fill in]** |
-| Typical problem | **[describe, e.g. added steps that are not in the guide]** | **[describe]** |
-
-**What I changed between v1 and v2 and why:** [write 2-3 sentences from what you saw in the results]
 
 ## Testing
 
@@ -75,6 +64,4 @@ I wrote two system prompts (see `src/prompts.py`) and tested both on the same 20
 - Terminal only. Next step: small web interface (Streamlit).
 - Answers are only as good as the guides. Next step: a feedback button ("Did this solve it?") and a monthly review of escalated tickets.
 
-## What I learned
 
-[Write 3 honest sentences: what was harder than expected, what you would do differently, what you want to try next.]
